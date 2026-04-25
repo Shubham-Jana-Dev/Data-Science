@@ -2,9 +2,13 @@
 //By the help of end=" " function we can manage the space area
 // of main thred.
 //means we can print the statement having multiple statement.
+#include <iostream>
+using namespace std;
 #include <Python.h>
 
 int main(){
+    int raj = 322;
+    cout << raj << endl;
     Py_Initialize();
     const char* pythonCode = R"(
 print("Hello Shubham")    
