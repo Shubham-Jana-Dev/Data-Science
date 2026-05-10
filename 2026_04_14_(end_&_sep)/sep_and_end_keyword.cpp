@@ -1,6 +1,6 @@
 //Demonstrait about end=" "
 //By the help of end=" " function we can manage the space area
-// of main thred.
+// of main thred mmmmmm.
 //means we can print the statement having multiple statement.
 #include <iostream>
 using namespace std;
