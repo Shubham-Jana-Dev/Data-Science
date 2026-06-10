@@ -70,6 +70,8 @@ print(arr.nbytes)
 print(arr2d.nbytes)
 print(rr.nbytes)
 
+er = np.linspace(0,10,5)
+print(er)
 )";
     PyRun_SimpleString(pythonCode);
     Py_Finalize();
