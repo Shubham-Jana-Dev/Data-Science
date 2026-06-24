@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        *{
+            border:2px dotted red;
+        }
+        .maindiv{
+            height:100vh;
+            width:70vw;
+            background-image:url('india-map-img.png');
+            background-size: 100% 100%;
+        }
+        #india{
+            height:200px;
+            width:200px;
+        
+        }
+        #india:hover{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1000px;
+            width: 2000px;
+            background: linear-gradient(rgb(131, 131, 227),rgb(195, 127, 39));
+            border-radius: 50px;
+            
+        }
+        #jak{
+            height:82px;
+            width:200px;
+            
+            background-size:100% 100%;
+            margin-left:200px;
+            padding-top:1rem;
+        }
+        #jak:hover{
+            height:400px;
+            width:500px;
+           background-image:url('Jammu_and_Kashmir_reorganisation_(preliminary,_2019) (1).svg');
+           .jk{
+            height:400px;
+            width:500px;
+           background-image:url('Jammu_and_Kashmir_reorganisation_(preliminary,_2019) (1).svg');
+           }
+        }
+         #himachal{
+            height:50px;
+            width:100px;
+            /* background:blue; */
+            
+            background-size:100% 100%;
+        }
+        #himachal:hover{
+            height:400px;
+            width:500px;
+            background-image:url('Language_Map_of_Himachal_Pradesh_(2011_Census).svg');
+            background-size: 100% 100%;
+        }
+        #panjab{
+            height:70px;
+            width:90px;
+            /* background:blue; */
+            
+           
+        }
+        #panjab:hover{
+            height:400px;
+            width:700px;
+            background:url('2014_Punjab_Lok_Sabha.svg');
+            background-size:100% 100%;
+
+        }
+        #pah{
+            height:70px;
+            width:600px;
+            display:flex;
+            justify-content:center;
+            /* margin-right:25rem; */
+            margin-left:00px;
+        }
+        .parent{
+            display:flex;
+            justify-content:center;
+        }
+        .side_div{
+            width:400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="maindiv">
+    <div id="jak">Jammu and Kashmir</div>
+    <div id="pah">
+        <div id="panjab">Panjub</div>
+        <div id="himachal">Himachal</div></div>
+    </div>
+    <div class="side_div">
+        <div class="jk"></div>
+    </div>
+    </div>
+</body>
+</html>
