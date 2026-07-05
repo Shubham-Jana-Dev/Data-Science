@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg height="200px" width="300px" style="border:2px dotted red; background-color:pink">
+<path d="M100 100 L100 100 Q140 60 120 20 Z" stroke = "white" stroke-width="3" fill="white"/>
+    </svg>
+    <svg viewBox="0 0 150 150" width="150" height="150" style="background: #333;">
+  <!-- Q ControlPointX ControlPointY EndPointX EndPointY -->
+  <path d="M10 10 L100 100 Q220 60 120  20 36 Q123 2043 30 Z" stroke="" stroke-width="3" fill="white"/>
+</svg>
+<svg viewBox="10 10 200 200" width="300" height="300" style="background-color: #1a1a2e;">
+  <!-- Left Side Wings -->
+  <!-- Upper Wing (Left) -->
+  <path d="M 100 90 C 80 50, 20 40, 30 90 C 35 115, 75 115, 100 110" 
+        fill="#ff4d6d" stroke="#ffb3c1" stroke-width="2" />
+  <!-- Lower Wing (Left) -->
+  <path d="M 100 110 C 80 115, 40 120, 50 150 C 60 175, 90 150, 100 125" 
+        fill="#ff758f" stroke="#ffb3c1" stroke-width="2" />
+
+  <!-- Right Side Wings (Symmetrical to Left) -->
+  <!-- Upper Wing (Right) -->
+  <path d="M 100 90 C 120 50, 180 40, 170 90 C 165 115, 125 115, 100 110" 
+        fill="#ff4d6d" stroke="#ffb3c1" stroke-width="2" />
+  <!-- Lower Wing (Right) -->
+  <path d="M 100 110 C 120 115, 160 120, 150 150 C 140 175, 110 150, 100 125" 
+        fill="#ff758f" stroke="#ffb3c1" stroke-width="2" />
+
+  <!-- Butterfly Antennae (Curves without Fill) -->
+  <path d="M 100 80 Q 90 55, 75 55" fill="none" stroke="#ffb3c1" stroke-width="2" stroke-linecap="round" />
+  <path d="M 100 80 Q 110 55, 125 55" fill="none" stroke="#ffb3c1" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Butterfly Body (Center) -->
+  <!-- Head -->
+  <circle cx="100" cy="75" r="5" fill="#fff" />
+  <!-- Torso / Abdomen -->
+  <path d="M 100 80 Q 103 115, 100 150 Q 97 115, 100 80 Z" fill="#fff" />
+</svg>
+
+</body>
+</html>
