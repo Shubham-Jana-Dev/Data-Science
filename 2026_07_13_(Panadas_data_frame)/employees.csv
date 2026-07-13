@@ -1,0 +1,31 @@
+EmployeeID,Name,Department,Salary,JoiningDate
+E001,John Doe,HR,50000,2020-01-15
+E002,jane smith,IT,65000,2019-03-22
+E003,Bob Johnson,SALES,55000,
+E004,alice brown,IT,65000,2021-02-10
+E005,,Engineering,70000,2018-05-30
+E006,Charlie Davis,hr,52000,2022-01-01
+E007,diana martinez,Sales,58000,2020-11-20
+E008,evan wilson,,60000,2019-07-14
+E009,Fiona Garcia,Engineering,75000,2021-04-05
+E010,george thomas,IT,65000,2020-06-18
+E011,Hannah Jackson,MARKETING,48000,
+E012,Ivan Lee,Engineering,72000,2019-09-12
+E013,julia anderson,hr,51000,2022-03-08
+E014,Kevin White,IT,67000,2020-12-25
+E015,,Sales,55000,2021-01-30
+E016,Lisa Chen,Engineering,73000,2018-08-22
+E017,michael jones,IT,64000,2019-10-15
+E018,Nancy Taylor,MARKETING,49000,2020-02-28
+E019,Oliver Brown,HR,51000,
+E020,patricia white,Engineering,71000,2021-07-11
+E021,Quinn Davis,sales,56000,2020-05-20
+E022,,IT,68000,2019-11-03
+E023,robert martin,Engineering,74000,2018-04-12
+E024,sophia lewis,Marketing,50000,2022-02-14
+E025,thomas garcia,,62000,2020-09-09
+E026,Uma Patel,IT,66000,2021-03-25
+E027,victor santos,HR,52000,2019-12-01
+E028,wendy brown,Engineering,72500,
+E029,,SALES,54000,2020-08-17
+E030,zoe johnson,it,63000,2021-06-06
