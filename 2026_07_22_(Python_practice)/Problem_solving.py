@@ -44,10 +44,29 @@ def check_char():
         print("Ether letter or numbers are absent in the string")
 #check_char()
 
-my_string = "seedtautgiovxdk"
-my_vol = "AEIOU"
-my_blank = ""
+def remove_vowels():
+    my_string = "seedtautgiovxdk"
+    my_vol = "AEIOU"
+    my_blank = ""
+    for j in my_string:
+        if(j.upper() not in my_vol and j.upper() not in my_blank):
+            my_blank = my_blank + j
+    print (my_blank)
+
+my_string = "wwskjhiuvnkjuvhwkalkhliuhlkz"
+My_set = set()
+min_count = 10000000
+current_count = 0
+min_element = 'j'
 for j in my_string:
-    if(j.upper() not in my_vol and j.upper() not in my_blank()):
-        my_blank = my_blank + j
-print (my_blank)
+    My_set.add(j)
+print(My_set)
+for i in My_set:
+    current_count = 0
+    for k in my_string:
+        if(k == i):
+            current_count += 1
+            if(current_count < min_count):
+                min_count = current_count
+                min_element = i
+print(min_element)
