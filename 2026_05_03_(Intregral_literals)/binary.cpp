@@ -4,7 +4,7 @@ int main(){
     const char* pythonCode = R"(
 x = 5993
 print(x)
-print(type(x))   #it should retun 'int'.
+print(type(x))   #it should retun 'int'
 y = bin(x)       #we use bin() to get the binary represention of any decimal value.
 print(f"{x:b}")  # Returns '1010' instead of '0b1010'
 print(y)         #it would return the binary represention of the x.
