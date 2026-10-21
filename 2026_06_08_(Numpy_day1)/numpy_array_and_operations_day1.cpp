@@ -6,7 +6,7 @@ import numpy as np
 arr = np.array([12,32,45,66])
 print(arr)
 
-# 2D array:
+# 2D array
 arr2d = np.array([['add','b','c'],['d','ettr','f']])
 print(arr2d)
 
