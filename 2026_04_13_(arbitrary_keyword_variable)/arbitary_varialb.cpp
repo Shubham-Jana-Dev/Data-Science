@@ -1,4 +1,4 @@
-// Multi value asignment by using arbitry keyword variable.
+// Multi value asignment by using aritry keyword variable.
 #include <Python.h>
 
 int main(){
